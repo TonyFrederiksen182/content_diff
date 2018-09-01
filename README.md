@@ -10,7 +10,7 @@ content_diff.py
 ---
 python3 content_diff.py <比較元ファイル> <比較先ファイル>  
 
-例）
+例）  
 $ echo -e "aaa\nbbb\nccc" > target.txt  
 $ echo -e "ddd\naaa\nccc\nbbb" > reference.txt  
 $ python3 content_diff.py target.txt reference.txt  
